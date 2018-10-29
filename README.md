@@ -3,5 +3,5 @@
 
 ## Make your git folder
 
-'mkdir {folder name}'
+`mkdir {folder name}`
 
