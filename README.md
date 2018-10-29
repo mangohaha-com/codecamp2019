@@ -33,16 +33,20 @@
 
 * Local branches are the branches on your computer. Remote branches are the branches which you can see on github.
 
-# Make your own branch
+## Make your own branch
 
 `git branch {your branch name}`
 
-# Move to your branch
+## Move to your branch
 
 `git checkout {your branch name}`
 
 
 * You can also do `git checkout -b {your branch name}` to do the two steps together.
+
+## After you make some changes on your branch. Your can check the status.
+
+`git status`
 
 
 
