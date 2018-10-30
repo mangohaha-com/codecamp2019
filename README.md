@@ -48,17 +48,16 @@
 
 `git push -u origin {your branch name}`
 
-
 ## After you make some changes on your branch. Your can check the status.
 
 `git status`
 
 
-## Add the file changed to the repository
+### Add the file changed to the repository
 
 `git add {file name with path}`
 
-## After you added all the files which you want to push to your remote branch
+### After you added all the files which you want to push to your remote branch
 
 `git commit -m "{input commit log here}"`
 
