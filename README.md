@@ -44,10 +44,23 @@
 
 * You can also do `git checkout -b {your branch name}` to do the two steps together.
 
+## Push your branch to remote branch. (By doing this, you will be able to create a remote branch linked to your local branch`
+
+`git push -u origin {your branch name}`
+
+
 ## After you make some changes on your branch. Your can check the status.
 
 `git status`
 
+
+## Add the file changed to the repository
+
+`git add {file name with path}`
+
+## After you added all the files which you want to push to your remote branch
+
+`git commit -m "{input commit log here}"`
 
 
 
