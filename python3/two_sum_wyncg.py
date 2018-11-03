@@ -24,6 +24,6 @@ class Solution:
             current_num = nums[i]
             num_needed = target - current_num
             if num_needed in num_index_hash:
-                return [i, num_index_hash[num_needed]]
+                return [num_index_hash[num_needed], i]
             else:
                 num_index_hash[current_num] = i
