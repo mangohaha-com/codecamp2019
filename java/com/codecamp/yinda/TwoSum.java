@@ -3,7 +3,7 @@ package com.codecamp.yinda;
 public class TwoSum {
 
     public static void main(String[] args){
-        twoSum(new int[]{2, 7, 11, 15});
+        twoSum(new int[]{2, 7, 11, 15},13);
     }
 
     // time O(n^2)
