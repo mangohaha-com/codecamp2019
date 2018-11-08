@@ -1,4 +1,4 @@
-package java;
+package com.codecamp.yinda;
 
 public class TwoSum {
 
