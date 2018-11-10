@@ -1,5 +1,3 @@
-package com.company;
-
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -30,7 +28,7 @@ public class twoSumShinryu20181104 {
         twoSum.processLogic(TEST_ARRAY,TEST_TARGET);
     }
 
-    /* 処理のロジック
+    /* 処理のロジッ�?
     Input: Given array, Given target
     Output: INFO MESSAGE
     */
@@ -38,16 +36,16 @@ public class twoSumShinryu20181104 {
 
         //一時保存用マップを作成,[Key 加数、VALUE 加数のインデックス]
         Map<Integer, Integer> tempMap = new HashMap<>();
-        //結果格納用リストを作成
+        //結果格納用リストを作�?
         List<String> resultPairs = new ArrayList<>();
-        //処理ループ
+        //処理ルー�?
         for (int i = 0; i < arry.length; i ++){
             if (tempMap.containsKey(tar - arry[i])){
                 resultPairs.add( i +" + "+ tempMap.get(tar - arry[i]));
             }
             tempMap.put(arry[i], i);
         }
-        //結果メッセージ
+        //結果メッセー�?
         if(!resultPairs.isEmpty()){
             System.out.println(INFO_PAIRS_FOUND + resultPairs);
         } else{
