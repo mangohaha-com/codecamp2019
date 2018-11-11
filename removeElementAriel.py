@@ -17,3 +17,11 @@ def removeElement(nums, val):
 nums = [3,2,2,3]
 val = 3
 print(removeElement(nums,val))
+
+
+def removeElement2(self, nums, val):
+        for ele in nums[:]:
+            if ele == val:
+                nums.remove(val)
+        return len(nums)
+
