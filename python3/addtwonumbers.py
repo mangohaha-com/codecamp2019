@@ -32,6 +32,3 @@ class Solution:
                 return head
             return_list.next = ListNode(None)
             return_list = return_list.next 
-
-
-        return return_list
