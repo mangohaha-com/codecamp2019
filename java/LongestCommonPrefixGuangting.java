@@ -1,6 +1,6 @@
 //Time complexity: O(m*n), m is the length of the first string, while n is the string array length
 //Space complexity; O(m), where m is the length of the result string.
-class Solution {
+class LongestCommonPrefixGuangting {
     public String longestCommonPrefix(String[] strs) {
         if(strs == null || strs.length == 0) return "";
         StringBuilder sb = new StringBuilder();

@@ -1,4 +1,4 @@
-class Solution {
+class ReverseIntegerGuangting {
   public int reverse(int x) {
     int result = 0;
     int newRes = 0;

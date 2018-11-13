@@ -2,7 +2,7 @@
 //Space Complexity: O(n), since we have generate n strings;
 
 
-class CountAndSay {
+class CountAndSayGuangting {
     public String countAndSay(int n) {
         //return generateNext(countAndSay(n - 1));
         String cur = "1";
