@@ -22,4 +22,19 @@ public class RemoveElementGuangting {
         }
         return res;
     }
+
+    //Another solution
+    public int removeElement2(int[] A, int elem) {
+        int size = A.length;
+
+        for(int i = 0; i < size;){
+            if(A[i] == elem){
+                size--;
+                A[i] = A[size];
+            } else {
+                i++;
+            }
+        }
+        return size;
+    }
 }
