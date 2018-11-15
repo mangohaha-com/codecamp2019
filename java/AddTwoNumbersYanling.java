@@ -8,7 +8,7 @@
  */
 class AddTwoNumbersYanling {
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
-    	//carry value
+        //carry value
         int flag = 0;
         //dummy head
         ListNode dummy = new ListNode(0);
@@ -47,3 +47,7 @@ class AddTwoNumbersYanling {
     
     
 }
+
+//Go through two linked lists from heads to tails
+//Time Complexity: O(n)
+//Space Complexity: O(n)
