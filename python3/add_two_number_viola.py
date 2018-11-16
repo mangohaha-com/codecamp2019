@@ -1,5 +1,7 @@
 """
-week two
+week 2
+
+code has passed on leetcode.com
 """
 
 import random
