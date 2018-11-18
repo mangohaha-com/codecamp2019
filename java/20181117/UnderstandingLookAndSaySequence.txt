@@ -1,0 +1,26 @@
+My understanding to Look and say sequence
+
+------------------------------------------------------------------------------------------------------
+<Basic level>
+
+Look and say sequence.
+1             Starting point
+11            Components of Previous Row: one 1
+21            Components of Previous Row: two 1
+1211          Components of Previous Row: one 2 one 1
+111221        Components of Previous Row: one 1 one 2 two 1
+312211        Components of Previous Row: three 1 two 2 
+13112221      Components of Previous Row: one 3 one 1 two 2 two 1
+...
+...
+...
+...
+...
+
+Therefore, point to understand this algorithm is next line will be the discripiton of previous line.
+
+
+------------------------------------------------------------------------------------------------------
+
+<More>
+Conway Constant:1.303577269....
