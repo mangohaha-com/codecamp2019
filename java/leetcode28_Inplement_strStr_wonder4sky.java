@@ -1,6 +1,6 @@
 class Solution {
     public int strStr(String haystack, String needle) {
-        //???? ?substring();??substring()??????????????
+        //思路一： 用substring();可是substring()是怎么实现的呢？好好思考一下
         int len = needle.length();
         for (int i = 0; i< haystack.length() - len + 1; i++) {
             if(haystack.substring(i, i+len).equals(needle))
@@ -9,18 +9,21 @@ class Solution {
         return -1;
     }
 }
-        
-        
-        //????????????????????
-        /**char[] charsH = haystack.toCharArray();
-        int index = 0;
-        for (int i = 0; i < needle.length(); i++) {
-            for (int j = 0; j < charsH.length; j++) {
-                if (charsH[j] != needle.charAt(i)
-                    return -1;
-                else if (charsH[j] == needle.charAt(i) && charsH[j+1] 
-                         == needle.charAt(i+1))
-            }
-        }**/
+
+
+//思路二：感觉这道题应该和找共同的前缀相似
+/**char[] charsH = haystack.toCharArray();
+ int index = 0;
+ for (int i = 0; i < needle.length(); i++) {
+ for (int j = 0; j < charsH.length; j++) {
+ if (charsH[j] != needle.charAt(i)
+ return -1;
+ else if (charsH[j] == needle.charAt(i) && charsH[j+1]
+ == needle.charAt(i+1))
+ }
+ }**/
+
+
+
         
 
