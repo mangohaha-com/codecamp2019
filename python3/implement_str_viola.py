@@ -13,8 +13,8 @@ class Solution:
         if not needle in haystack:
             return -1
         else:
-            for i in range(len(haystack) - len(needle)):
+            for i in range(len(haystack) - len(needle) + 1):
                 if needle in haystack[0+i:len(needle)+i]:
                     return i
 
-        return -1
+        return 0
