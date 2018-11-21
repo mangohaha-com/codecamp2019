@@ -14,14 +14,7 @@ class sqrtGuangting {
         right = mid;
       }
     }
-    return left == x/left? left:right;
+    return right == x/right? right:left;
   }
-  public static void main(String[] args) throws IOException {
-      int ret = new sqrtGuangting().mySqrt(8);
-
-      String out = String.valueOf(ret);
-
-      System.out.print(out);
-    }
 }
 
