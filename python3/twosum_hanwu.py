@@ -1,7 +1,7 @@
 #!/bin/python3
 #11/08/2018
 #by Han Wu
-#Given an array of integers, return indices of the two numbers such that they add up to a specific target.
+#Given an array of integers, return indices of the two numbers such that they add up to a specific target
 
 class Solution:
     def twoSum(self, nums, target):
